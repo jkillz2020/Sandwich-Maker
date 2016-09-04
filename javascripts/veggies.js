@@ -31,4 +31,4 @@ var veggies = [];
   };
   // Return the new, augmented object with the new method on it
   return maker;
-})(SandwichMaker);
+})(SandwichMaker  || {});

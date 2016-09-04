@@ -10,10 +10,10 @@ var SandwichMaker = (function(maker){
   // Return the public interface that other code can interact with
   return {
     totalPrice: function() {
-      return maker.addMeatPrices();
-      return maker.addVeggiePrices();
-      return maker.addBreadPrices();
-      return maker.addCheesePrices();
+      return maker.addMeatPrices() +
+      return maker.addVeggiePrices() +
+      return maker.addBreadPrices() +
+      return maker.addCheesePrices() +
       return maker.addCondimentPrices();
     }
   }
