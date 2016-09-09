@@ -1,22 +1,15 @@
-var SandwichMaker = (function(maker){
+var SandwichMaker = (function(){
   var bread = "";
   var cheese = "";
   var meat = "";
   var veggies = "";
   var condiments = "";
 // Private variable to store the price
-  var totalPrice = 0;
+  
 
   // Return the public interface that other code can interact with
-  return {
-    totalPrice: function() {
-      return maker.addMeatPrices() +
-      return maker.addVeggiePrices() +
-      return maker.addBreadPrices() +
-      return maker.addCheesePrices() +
-      return maker.addCondimentPrices();
-    }
-  }
+  // 
+  
     // getBread: function(){
     //   return bread;
     // },
@@ -47,5 +40,4 @@ var SandwichMaker = (function(maker){
     // setCondiments : function(newCondiments){
     //   return condiments = newCondiments;
     // },
-
-})(SandwichMaker || {});
+})();

@@ -11,6 +11,7 @@ var meats = [];
   // Augment the original object with another method
   maker.addMeat = function(meat) {
     meats.push(meat);
+    console.log("meat", meats);
   };
 
   //  remove meat
